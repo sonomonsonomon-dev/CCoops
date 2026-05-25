@@ -1,0 +1,20 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm --version)",
+      "Bash(brew --version)",
+      "Bash(n lsr *)",
+      "Bash(sudo n *)",
+      "Bash(brew info *)",
+      "Bash(export PATH=\"$HOME/.n/bin:$PATH\")",
+      "Bash(claude --version)",
+      "Bash(npm view *)",
+      "Bash(pip show *)",
+      "Read(//Applications/**)",
+      "Bash(/Applications/Cursor.app/Contents/Resources/app/bin/cursor --install-extension MS-CEINTL.vscode-language-pack-zh-hans)",
+      "Bash(git *)",
+      "Bash(gh auth *)",
+      "Bash(gh repo *)"
+    ]
+  }
+}
